@@ -15,7 +15,7 @@ listt = zip(sorted.keys(), sorted.values())
 listt = list(listt) 
 # print(listt)
 
-numOfEmp = 4# change here
+numOfEmp = int(input("No of employees:"))
 index = 0
 diff = listt[numOfEmp-1][1] - listt[0][1]
 i = 1
